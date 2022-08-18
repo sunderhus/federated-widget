@@ -14,6 +14,7 @@ module.exports = defineConfig({
                 filename: 'remoteEntry.js',
                 exposes: {
                     './Widget': './src/components/widget/index.vue',
+                    './mountWidget': './src/components/widget/create-widget',
                 },
                 remotes: {},
                 shared: {
