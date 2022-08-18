@@ -1,5 +1,5 @@
 <script lang="ts">
-import { Component, defineComponent, PropType } from "@vue/runtime-core";
+import { Component, defineComponent, PropType } from "vue";
 import CloseButton from "../close-button/index.vue";
 
 type Card = {

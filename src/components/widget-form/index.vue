@@ -1,5 +1,5 @@
 <script lang="ts">
-import { Component, defineComponent } from "@vue/runtime-core";
+import { Component, defineComponent } from "vue";
 import { PhBug, PhChatCenteredText, PhLightbulb } from "phosphor-vue";
 import FeedbackSelection from "../feedback-selection/index.vue";
 import WidgetHeader from "../widget-header/index.vue";
