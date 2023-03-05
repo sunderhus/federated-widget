@@ -1,5 +1,6 @@
 const { defineConfig } = require("@vue/cli-service");
 const { container: { ModuleFederationPlugin } } = require('webpack')
+const deps = require('./package.json').dependencies
 
 module.exports = defineConfig({
     publicPath: 'auto',
@@ -18,6 +19,7 @@ module.exports = defineConfig({
                 },
                 remotes: {},
                 shared: {
+                    ...deps
                 },
             })
         ]
